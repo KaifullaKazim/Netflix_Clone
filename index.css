@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(./assets/images/bg_image.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+}
+
+.main .box{
+    opacity: 0.3;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+nav{
+    margin:0 126.6px;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 9.25rem;
+    height: 2.5rem;
+    filter: invert(50%) sepia(100%) saturate(500000%) hue-rotate(349deg) brightness(200%) contrast(200%) opacity(100%);
+
+}
+
+#sign_in{
+    border: 0;
+    padding: 10px 15px;
+    background-color: red;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    filter: opacity(100%);
+}
+
+.nav2{
+    display: flex;
+}
+
+.sign_in:hover{
+    color: red;
+}
