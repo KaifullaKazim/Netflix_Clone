@@ -112,7 +112,7 @@ nav button{
 }
 
 .fir_1{
-    display:flex ;
+    display:flex;
     flex-direction: column;
     text-align: start;
     justify-content: center;
@@ -123,6 +123,3 @@ nav button{
     font-size: 2rem
 }
 
-video{
-
-}
