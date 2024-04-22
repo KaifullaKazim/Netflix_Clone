@@ -40,14 +40,11 @@ nav button {
 .lang-eng {
   background-color: rgba(0, 0, 0, 0);
   color: white;
-  cursor: pointer;
-}
-.lang-eng {
   padding: 10px 20px;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
     sans-serif;
+  cursor: pointer;
 }
-
 #sign-in-btn {
   background-color: red;
   color: white;
@@ -301,4 +298,12 @@ nav button {
     justify-content: center;
     background-color: yellow;
 
+  }
+
+  @media screen and (min-width: 600px){
+    .last_line{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    
   }
