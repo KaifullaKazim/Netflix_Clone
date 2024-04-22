@@ -1,133 +1,184 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.main{
-    background-image:url(./assets/images/bg_image.jpg);
-    background-repeat: no-repeat;
-    background-size:max(1200px,100vw);
-    height:100vh;
-    position: relative;
+.main {
+  background-image: url(./assets/images/bg_image.jpg);
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 100vh;
+  position: relative;
 }
-.box{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.69;
-    position: absolute;
-    top: 0;
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
 }
-.logo{
-    z-index: 10;
-    width: 154px;
-    position: relative;
+.logo {
+  z-index: 10;
+  width: 154px;
+  position: relative;
 }
-#nav-bar{
-    padding: 35px 10px;
-    display: flex;
-    margin: auto;
-    max-width: 79vw;
-    justify-content: space-between;
-    align-items: center;
-    height: 62px;
+#nav-bar {
+  padding: 35px 10px;
+  display: flex;
+  margin: auto;
+  max-width: 79vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
 }
-nav button{
-    position: relative;
-    z-index: 10;
+nav button {
+  position: relative;
+  z-index: 10;
 }
-.lang-eng{
-    padding: 10px 20px;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
+.lang-eng {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  cursor: pointer;
 }
-
-#sign-in-btn{
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bolder;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
-}
-.content{
-    padding: 20vh 0vh;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    height: calc(100% - 62px);
-   
-}
-.content span{
-    color: white;
-    position: relative;
-    text-align: center;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
-}
-.fir_line,.sec_line{
-    padding-bottom: 15px;
-}
-.fir_line{
-    font-size: 3rem;
-    font-weight: bolder;
-}
-.sec_line,.thi_line{
-    font-size: 1.5rem;
-    font-weight: bold;
-
-}
-#email{
-    background-color: rgba(0, 0, 0, 0.6);
-    padding-left: 10px;
-    padding-right: 10px;
-    height:45px;
-    width: 35vw;
-    color: white;
-    border: none;
+.lang-eng {
+  padding: 10px 20px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
 
-.last_line{
-    margin-left: 500px;
-    display: flex;
-    text-align: center;
-    justify-content:baseline;
-    margin-top: 15px;
-
+#sign-in-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 20px;
+  font-weight: bolder;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
 }
-#gs-btn{
-    text-align: center;
-    height:3.2vw;
-    background-color: red;
-    color: white;
-    position:relative;
-    font-weight: bold;
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
-    padding-left:10px;
-    padding-right:10px;
-    font-size: 1.2rem;
-    border-radius: 6px;
-    margin-left: 10px;
+.content {
+  padding: 20vh 0vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 62px);
+}
+.content span {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.fir_line,
+.sec_line {
+  padding-bottom: 15px;
+}
+.fir_line {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.sec_line,
+.thi_line {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#email {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 45px;
+  width: 35vw;
+  color: white;
+  border: none;
 }
 
-.fir_box{
-    display: flex;
-    justify-content: center;
-    border-top: solid 6px grey;
-    background-color: black;
+.last_line {
+  margin-left: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: baseline;
+  margin-top: 15px;
+}
+#gs-btn {
+  text-align: center;
+  height: 3.2vw;
+  background-color: red;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  margin-left: 10px;
 }
 
-.fir_1{
-    display:flex;
-    flex-direction: column;
-    text-align: start;
-    justify-content: center;
-    color: white;
-    margin-top: 25vh;
-    margin-left: 10vw;
-    font-weight: bolder;
-    font-size: 2rem
+.first_sec {
+  position: relative;
+  border-top: solid 5px rgb(134, 132, 132);
+  width: 100%;
+  display: flex;
+  background-color: black;
+  border-bottom: solid 5px rgb(134, 132, 132);
 }
-.fir_2{
-    display: flex;
 
+.first_sec_img img {
+  position: relative;
+  z-index: 10;
+}
+.first_sec_content {
+  width: 50vw;
+  padding-left: 70px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: baseline;
+  text-align: start;
+  font-weight: bold;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+.first_sec_head {
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+
+.first_sec_sub {
+  font-size: 1.5rem;
+}
+
+.first_sec_img {
+  display: flex;
+}
+.first_sec_img video {
+  position: absolute;
+  padding: 80px 80px;
+}
+
+.sec_sec,
+.thi_sec {
+  position: relative;
+  border-top: solid 5px rgb(134, 132, 132);
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  background-color: black;
+  border-bottom: solid 5px rgb(134, 132, 132);
+}
+
+.thi_sec .first_sec_img img {
+  position: relative;
+  z-index: 10;
+}
+
+.thi_sec .first_sec_img video {
+  padding: 45px 118px;
+  position: absolute;
 }
