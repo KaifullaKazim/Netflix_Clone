@@ -1,4 +1,4 @@
-<center>Netflix Clone Website</center>
+<center>Netflix Clone Website</center><br/>
 
 <center>Website:- https://netflix-clone-tau-eight-37.vercel.app/</center>
 
@@ -10,6 +10,7 @@ please follow the below steps
 
 3. Hover the cursor over the underlined part and then you can view the clone website..
 
+Below are the images of the Website.
 
 
 ![image](https://github.com/KaifullaKazim/Netflix_Clone/assets/113112009/fab2bd6f-7332-4dd7-b873-1563d80d16f7)
