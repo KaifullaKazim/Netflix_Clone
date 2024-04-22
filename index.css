@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
@@ -207,4 +208,97 @@ nav button {
     font-weight: bold;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
       sans-serif;
+  }
+
+  .faq-box{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-top: solid 3px rgb(134, 132, 132);
+  }
+  .faq h2{
+    font-size: 3.5rem;
+    padding-top: 30px;
+    font-weight: 500;
+  }
+
+  .faq_q:hover{
+    background-color: rgb(65,65,65);
+    cursor: pointer;
+  }
+  .faq{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,sans-serif;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 100px;
+  }
+  .faq_q{
+    font-size: 1.5rem;
+    padding: 34px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #2d2D2D;
+    width: auto;
+  }
+
+  .last{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 5px rgb(134, 132, 132);
+    width: 100%;
+  }
+  .last .last_line{
+    padding: 20px;
+    margin:auto;
+    padding-bottom: 40px;
+  }
+
+  footer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+  }
+
+  a{
+    color: white;
+  }
+
+  .last_sites{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    margin-left: 170px;
+  }
+  li{
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .fir_col{
+    margin: 0;
+    padding: 30px;
+  }
+  #Created_by{
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    background-color: yellow;
+
   }
