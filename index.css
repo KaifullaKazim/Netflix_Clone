@@ -20,7 +20,7 @@
 }
 .logo{
     z-index: 10;
-    width: 114px;
+    width: 154px;
     position: relative;
 }
 #nav-bar{
@@ -46,6 +46,7 @@ nav button{
     color: white;
     padding: 10px 20px;
     text-decoration: none;
+    margin-left: 20px;
     font-weight: bolder;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
 }
@@ -58,7 +59,7 @@ nav button{
 }
 .content span{
     color: white;
-    font-weight: bolder;
+    
     position: relative;
     text-align: center;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
@@ -68,9 +69,12 @@ nav button{
 }
 .fir_line{
     font-size: 3rem;
+    font-weight: bolder;
 }
 .sec_line,.thi_line{
     font-size: 1.5rem;
+    font-weight: bold;
+
 }
 #email{
     background-color: rgba(0, 0, 0, 0.6);
@@ -122,4 +126,16 @@ nav button{
     font-weight: bolder;
     font-size: 2rem
 }
-
+.fir_2{
+    display: flex;
+    
+}
+video{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+}
