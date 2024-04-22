@@ -1,6 +1,6 @@
-<center>Netflix Clone Website</center><br/>
+Netflix Clone Website
 
-<center>Website:- https://netflix-clone-tau-eight-37.vercel.app/</center>
+Website link:- https://netflix-clone-tau-eight-37.vercel.app/
 
 If the browser is preventing not to open the website
 please follow the below steps
