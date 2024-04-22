@@ -6,15 +6,15 @@
 .main{
     background-image:url(./assets/images/bg_image.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height:98vh;
+    background-size:max(1200px,100vw);
+    height:100vh;
     position: relative;
 }
 .box{
     width: 100%;
-    height: 98vh;
+    height: 100%;
     background-color: black;
-    opacity: 0.44;
+    opacity: 0.69;
     position: absolute;
     top: 0;
 }
@@ -55,11 +55,11 @@ nav button{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    height: calc(100% - 62px);
    
 }
 .content span{
     color: white;
-    
     position: relative;
     text-align: center;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
@@ -79,12 +79,13 @@ nav button{
 #email{
     background-color: rgba(0, 0, 0, 0.6);
     padding-left: 10px;
-    border: none;
+    padding-right: 10px;
     height:45px;
     width: 35vw;
     color: white;
     border: none;
 }
+
 .last_line{
     margin-left: 500px;
     display: flex;
@@ -111,7 +112,7 @@ nav button{
 .fir_box{
     display: flex;
     justify-content: center;
-    border-top: solid 10px grey;
+    border-top: solid 6px grey;
     background-color: black;
 }
 
@@ -128,14 +129,5 @@ nav button{
 }
 .fir_2{
     display: flex;
-    
-}
-video{
-    width: 100%;
-    height: 100%;
-    max-width: 73%;
-    max-height: 54%;
-    position: absolute;
-    top: 46%;
-    left: 50%;
+
 }
