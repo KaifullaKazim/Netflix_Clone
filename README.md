@@ -1,9 +1,9 @@
-Netflix Clone Website
+`Netflix Clone Website
 
-Desktop Website of Netflix..
+Desktop Website of Netflix...
 
 Website link:- https://netflix-clone-tau-eight-37.vercel.app/
-
+`
 If the browser is preventing not to open the website
 please follow the below steps
 
