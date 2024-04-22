@@ -165,12 +165,12 @@ nav button {
 .sec_sec,
 .thi_sec {
   position: relative;
-  border-top: solid 5px rgb(134, 132, 132);
+  border-top: solid 3px rgb(134, 132, 132);
   width: 100%;
   height: 80vh;
   display: flex;
   background-color: black;
-  border-bottom: solid 5px rgb(134, 132, 132);
+  border-bottom: solid 3px rgb(134, 132, 132);
 }
 
 .thi_sec .first_sec_img img {
@@ -182,3 +182,29 @@ nav button {
   padding: 45px 118px;
   position: absolute;
 }
+.sec_sec .first_sec_content {
+    width: 50vw;
+    padding-left: 70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: baseline;
+    text-align: start;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+      sans-serif;
+  }
+  .thi_sec .first_sec_content {
+    width: 50vw;
+    padding-left: 70px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: baseline;
+    text-align: start;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+      sans-serif;
+  }
