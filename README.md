@@ -5,7 +5,7 @@ Website link:- https://netflix-clone-tau-eight-37.vercel.app/
 If the browser is preventing not to open the website
 please follow the below steps
 
-1. click on the details button resent on the screen
+1. click on the details button present on the screen
 2. ![image](https://github.com/KaifullaKazim/Netflix_Clone/assets/113112009/d5d515fd-5502-49d0-b51b-5b0b6104157f)
 
 3. Hover the cursor over the underlined part and then you can view the clone website..
