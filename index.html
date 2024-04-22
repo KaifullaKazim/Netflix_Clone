@@ -4,31 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Clone</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-
     <div class="main">
-        <nav>
-            <div class="nav1">
-                <img src="./assets/images/logo.svg" alt="Netflix_logo" class="logo">
-            </div>
-            <div class="nav2">
-                <div id="lang">
-                    <select>
-                        <option value="en">English</option>
-                        <option value="hi">Hindi</option>
-                    </select>
-                </div>
-                <a id="sign_in" href="#">Sign In</a>
-                
+        <nav id="nav-bar">
+            <span><img src="./assets/images/logo.svg" alt="logo of Netflix" class="logo" ></span>
+            <div>
+                <button class="lang-eng">English</button>
+                <button id="sign-in-btn" onclick="www.google.com">Sign In</button>
             </div>
         </nav>
         <div class="box">
-            
-
+        </div>
+        <div class="content">
+            <span class="fir_line">Unlimited movies, TV shows and more</span>
+            <span class="sec_line">Watch anywhere. Cancel anytime.</span>
+            <span class="thi_line">Ready to watch? Enter your email to create or restart your membership.</span>
+            <div class="last_line">
+                <span class="email_address">
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                </span>
+               <button id="gs-btn">Get Started&nbsp;></button>
+            </div>
+        </div> 
+    </div>
+    <div class="fir_box">
+        <div class="fir_1">
+            <span>Enjoy on your TV</span>
+            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+        </div>
+        <div class="fir_2">
+            <video src="./assets/videos/video-tv-in-0819.m4v" autoplay></video>
+            <img src="./assets/images/tv.png" alt="video in a tv">
         </div>
     </div>
-    
 </body>
 </html>

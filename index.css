@@ -1,56 +1,128 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .main{
-    background-image: url(./assets/images/bg_image.jpg);
-    height: 80vh;
+    background-image:url(./assets/images/bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:98vh;
     position: relative;
-    background-position: center center;
 }
-
-.main .box{
-    opacity: 0.3;
+.box{
+    width: 100%;
+    height: 98vh;
     background-color: black;
-    height: 100%;
+    opacity: 0.44;
     position: absolute;
-    top:0;
-    left:0;
-    right: 0;
-    bottom: 0;
-}
-
-nav{
-    margin:0 126.6px;
-    padding: 24px 48px;
-    display: flex;
-    justify-content: space-between;
+    top: 0;
 }
 .logo{
-    width: 9.25rem;
-    height: 2.5rem;
-    filter: invert(50%) sepia(100%) saturate(500000%) hue-rotate(349deg) brightness(200%) contrast(200%) opacity(100%);
-
+    z-index: 10;
+    width: 114px;
+    position: relative;
 }
-
-#sign_in{
-    border: 0;
-    padding: 10px 15px;
-    background-color: red;
-    font-weight: 500;
-    color: white;
-    font-size: 16px;
-    letter-spacing: normal;
-    line-height: 1;
-    text-decoration: none;
-    border-radius: 0.25rem;
-    filter: opacity(100%);
-}
-
-.nav2{
+#nav-bar{
+    padding: 35px 10px;
     display: flex;
+    margin: auto;
+    max-width: 79vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.lang-eng{
+    padding: 10px 20px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
 }
 
-.sign_in:hover{
-    color: red;
+#sign-in-btn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
+}
+.content{
+    padding: 20vh 0vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.content span{
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif
+}
+.fir_line,.sec_line{
+    padding-bottom: 15px;
+}
+.fir_line{
+    font-size: 3rem;
+}
+.sec_line,.thi_line{
+    font-size: 1.5rem;
+}
+#email{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 10px;
+    border: none;
+    height:45px;
+    width: 35vw;
+    color: white;
+    border: none;
+}
+.last_line{
+    margin-left: 500px;
+    display: flex;
+    text-align: center;
+    justify-content:baseline;
+    margin-top: 15px;
+
+}
+#gs-btn{
+    text-align: center;
+    height:3.2vw;
+    background-color: red;
+    color: white;
+    position:relative;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.fir_box{
+    display: flex;
+    justify-content: center;
+    border-top: solid 10px grey;
+    background-color: black;
+}
+
+.fir_1{
+    display:flex ;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    color: white;
+    margin-top: 25vh;
+    margin-left: 10vw;
+    font-weight: bolder;
+    font-size: 2rem
+}
+
+video{
+
 }
